@@ -10,3 +10,4 @@
 **Step2**: Mount your google drive in google colab (using the same email id to login in google colab).
 
 **Step3**: Upload the "basketball_win_probab_consize.ipynb" file in google colab and run. It requires tensorflow library to run.<br>
+Change the directory when reading the csv file using pd.read_csv() to where you have uploaded it in google drive(pd.read_csv("drive/MyDrive/inputWithRank.csv") if you have not put it inside any folder).
